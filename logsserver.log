@@ -1,0 +1,17 @@
+2021-12-25 00:44:08:025 [Appium] Welcome to Appium v1.22.1
+2021-12-25 00:44:08:027 [Appium] Non-default server args:
+2021-12-25 00:44:08:028 [Appium]   logFile: C:\Users\asife\FirstAppiumProject\logsserver.log
+2021-12-25 00:44:08:085 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2021-12-25 00:44:08:771 [HTTP] --> GET /wd/hub/status
+2021-12-25 00:44:08:772 [HTTP] {}
+2021-12-25 00:44:08:774 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-12-25 00:44:08:776 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2021-12-25 00:44:08:786 [HTTP] <-- GET /wd/hub/status 200 12 ms - 68
+2021-12-25 00:44:08:786 [HTTP] 
+2021-12-25 00:44:08:804 [HTTP] --> GET /wd/hub/status
+2021-12-25 00:44:08:804 [HTTP] {}
+2021-12-25 00:44:08:805 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-12-25 00:44:08:806 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+2021-12-25 00:44:08:808 [HTTP] <-- GET /wd/hub/status 200 3 ms - 68
+2021-12-25 00:44:08:808 [HTTP] 
+2021-12-25 00:44:11:403 [HTTP] --> GET /wd/hub/status
