@@ -46,6 +46,6 @@ public class ServerManager {
         }
         LOGGER.info("Appium Server Stopped");
     }
-
-
 }
+
+

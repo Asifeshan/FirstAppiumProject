@@ -20,10 +20,10 @@ public class CreateDriverSession {
         //adb shell “dumpsys activity activities | grep mResumedActivity
         //mResumedActivity: ActivityRecord{2fd6d21 u0 com.android.launcher3/.uioverrides.QuickstepLauncher t5}
         //{5c616ac u0 com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher}
-    //    caps.setCapability("appPackage", "io.appium.android.apis");
-     //   caps.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
-        caps.setCapability("appPackage", "com.android.launcher3");
-        caps.setCapability("appActivity", ".uioverrides.QuickstepLauncher t5");
+        caps.setCapability("appPackage", "io.appium.android.apis");
+        caps.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
+    //    caps.setCapability("appPackage", "com.android.launcher3");
+     //   caps.setCapability("appActivity", ".uioverrides.QuickstepLauncher t5");
 
         URL url = new URL("http://localhost:4723/wd/hub");
         AppiumDriver driver = new AndroidDriver(url, caps);
